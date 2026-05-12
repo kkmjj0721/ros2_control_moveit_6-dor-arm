@@ -1,0 +1,9 @@
+<library path="my_robot_hardware_interface">
+  <class name="my_robot_hardware_interface/MyRobotHardwareInterface"
+         type="my_robot_hardware_interface::MyRobotHardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Real hardware interface for my_robot 6-DOF arm and gripper.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,1 @@
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_moveit_config/launch/moveit_rviz.launch.py

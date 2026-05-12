@@ -1,0 +1,17 @@
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/lib/libmy_robot_hardware_interface.so
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/my_robot_hardware_interface.xml
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/my_robot_hardware_interface
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/my_robot_hardware_interface
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/environment/ament_prefix_path.sh
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/environment/ament_prefix_path.dsv
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/environment/path.sh
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/environment/path.dsv
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/local_setup.bash
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/local_setup.sh
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/local_setup.zsh
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/local_setup.dsv
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/package.dsv
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/ament_index/resource_index/packages/my_robot_hardware_interface
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/cmake/my_robot_hardware_interfaceConfig.cmake
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/cmake/my_robot_hardware_interfaceConfig-version.cmake
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_hardware_interface/share/my_robot_hardware_interface/package.xml

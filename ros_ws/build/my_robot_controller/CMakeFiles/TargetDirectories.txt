@@ -1,0 +1,9 @@
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/uninstall.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/my_robot_controller_uninstall.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/test.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/edit_cache.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/rebuild_cache.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/list_install_components.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/install.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/install/local.dir
+/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/CMakeFiles/install/strip.dir

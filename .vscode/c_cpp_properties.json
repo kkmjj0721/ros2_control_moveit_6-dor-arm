@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_bringup/include/**",
+        "/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_controller/include/**",
+        "/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_hardware_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

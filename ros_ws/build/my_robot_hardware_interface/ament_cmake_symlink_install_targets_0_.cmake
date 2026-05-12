@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_hardware_interface/libmy_robot_hardware_interface.so" "TARGETS" "my_robot_hardware_interface" "DESTINATION" "lib")

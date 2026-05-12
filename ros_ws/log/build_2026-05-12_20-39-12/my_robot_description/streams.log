@@ -1,0 +1,47 @@
+[0.018s] Invoking command in '/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description -- -j16 -l16
+[0.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Configuring done
+[0.171s] -- Generating done
+[0.172s] -- Build files have been written to: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description
+[0.190s] Invoked command in '/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description -- -j16 -l16
+[0.191s] Invoking command in '/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description
+[0.198s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/launch
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/launch/display_gazebo.launch.py
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/config
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/rviz
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/rviz/my_robot_description.rviz
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/mock_components
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/mock_components/my_robot_description.urdf.xacro
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/mock_components/my_robot_description.ros2_control.xacro
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_6.STL
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Gripper.STL
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_4.STL
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_0.STL
+[0.198s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_1.STL
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_2.STL
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_3.STL
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/meshes/Link_5.STL
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/arm_description.urdf
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/gazebo
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/gazebo/my_robot_description.urdf.xacro
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/urdf/gazebo/my_robot_description.ros2_control.xacro
+[0.199s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.199s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.199s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.199s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.199s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.199s] -- Up-to-date: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.200s] -- Installing: /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.201s] Invoked command in '/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_description

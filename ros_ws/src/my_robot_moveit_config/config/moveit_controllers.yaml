@@ -6,6 +6,7 @@ moveit_simple_controller_manager:
   controller_names:
     - arm_controller
     - gripper_controller
+    - my_custom_controller
 
   arm_controller:
     type: FollowJointTrajectory
@@ -20,3 +21,14 @@ moveit_simple_controller_manager:
     type: FollowJointTrajectory
     joints:
       - Joint_Gripper
+  my_robot_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    default: true
+    joints:
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_4
+      - joint_5
+      - joint_6
