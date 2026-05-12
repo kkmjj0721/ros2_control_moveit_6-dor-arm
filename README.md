@@ -1,0 +1,2 @@
+# ros2_controll_moveit_6-dor-arm
+使用ros2controll+moveit2的六自由度机械臂的夹取仿真
