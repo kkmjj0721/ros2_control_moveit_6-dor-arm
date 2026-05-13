@@ -3,7 +3,7 @@
 
 可以去看我的另一个项目，将ros2control+moveit接入真实的一个三自由度机械臂，
 
-[https://github.com/kkmjj0721/unitree_ros2_control]: unitree_3-dof_arm
+[unitree_3-dof_arm]: https://github.com/kkmjj0721/unitree_ros2_control	"unitree_3-dof_arm"
 
 
 
