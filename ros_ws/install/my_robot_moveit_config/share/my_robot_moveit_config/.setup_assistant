@@ -1,1 +1,25 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_moveit_config/.setup_assistant
+moveit_setup_assistant_config:
+  urdf:
+    package: my_robot_description
+    relative_path: urdf/arm_description.urdf
+  srdf:
+    relative_path: config/my_robot_description.srdf
+  package_settings:
+    author_name: Aira
+    author_email: 2171670754@qq.com
+    generated_timestamp: 1778584648
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

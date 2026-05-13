@@ -1,1 +1,1 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_hardware_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;

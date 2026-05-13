@@ -1,1 +1,10 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_moveit_config/config/initial_positions.yaml
+# Default initial positions for my_robot_description's ros2_control fake system
+
+initial_positions:
+  Joint_1: 0
+  Joint_2: 0
+  Joint_3: 0
+  Joint_4: 0
+  Joint_5: 0
+  Joint_6: 0
+  Joint_Gripper: 0

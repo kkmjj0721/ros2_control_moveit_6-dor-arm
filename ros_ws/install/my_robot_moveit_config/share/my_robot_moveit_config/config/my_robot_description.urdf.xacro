@@ -1,1 +1,14 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_moveit_config/config/my_robot_description.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot_description">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import my_robot_description urdf file -->
+    <xacro:include filename="$(find my_robot_description)/urdf/arm_description.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="my_robot_description.ros2_control.xacro" />
+
+
+    <xacro:my_robot_description_ros2_control name="MyRobotSimulationSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

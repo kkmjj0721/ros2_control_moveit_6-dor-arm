@@ -1,1 +1,1 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+controller_interface;control_msgs;hardware_interface;pluginlib;rclcpp;rclcpp_action;rclcpp_lifecycle;trajectory_msgs;ament_lint_auto;ament_lint_common;ament_cmake_gtest

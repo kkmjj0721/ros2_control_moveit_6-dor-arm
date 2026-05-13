@@ -1,8 +1,9 @@
 #ifndef MY_ROBOT_HARDWARE_INTERFACE_HPP_
 #define MY_ROBOT_HARDWARE_INTERFACE_HPP_
 
-#include <vector>
+#include <cstdint>
 #include <string>
+#include <vector>
 
 #include "hardware_interface/system_interface.hpp"
 #include "hardware_interface/types/hardware_interface_return_values.hpp"
@@ -39,9 +40,13 @@ public:
     std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
 private:
-    // 存储 7 个关节 (Joint_1~6 + Gripper) 的状态和命令
     std::vector<double> hw_commands_;
-    std::vector<double> hw_states_;
+    std::vector<double> last_valid_commands_;
+    std::vector<double> hw_positions_;
+    std::vector<double> hw_velocities_;
+    std::vector<double> joint_position_mins_;
+    std::vector<double> joint_position_maxs_;
+    std::vector<uint8_t> velocity_state_enabled_;
 
 };
 

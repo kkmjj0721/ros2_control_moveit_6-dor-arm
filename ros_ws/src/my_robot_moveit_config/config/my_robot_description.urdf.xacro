@@ -9,6 +9,6 @@
     <xacro:include filename="my_robot_description.ros2_control.xacro" />
 
 
-    <xacro:my_robot_description_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+    <xacro:my_robot_description_ros2_control name="MyRobotSimulationSystem" initial_positions_file="$(arg initial_positions_file)"/>
 
 </robot>

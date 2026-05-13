@@ -3,7 +3,8 @@
          type="my_robot_hardware_interface::MyRobotHardwareInterface"
          base_class_type="hardware_interface::SystemInterface">
     <description>
-      Real hardware interface for my_robot 6-DOF arm and gripper.
+      Simulation-only ros2_control hardware interface for the my_robot 6-DOF arm and gripper.
+      Valid position commands are mirrored into simulated state; no real hardware I/O is performed.
     </description>
   </class>
 </library>

@@ -1,1 +1,0 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/build/my_robot_bringup/ament_cmake_core/my_robot_bringupConfig-version.cmake

@@ -3,22 +3,16 @@ controller_manager:
   ros__parameters:
     update_rate: 100  # Hz
 
-    arm_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-
+    my_custom_controller:
+      type: my_robot_controller/MyCustomController
 
     gripper_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-    # 加载自定义的控制器
-    my_custom_controller:
-      type: my_robot_controller/MyCustomController
-
-arm_controller:
+my_custom_controller:
   ros__parameters:
     joints:
       - Joint_1
@@ -36,21 +30,6 @@ gripper_controller:
   ros__parameters:
     joints:
       - Joint_Gripper
-    command_interfaces:
-      - position
-    state_interfaces:
-      - position
-      - velocity
-
-my_robot_arm_controller:
-  ros__parameters:
-    joints:
-      - joint_1
-      - joint_2
-      - joint_3
-      - joint_4
-      - joint_5
-      - joint_6
     command_interfaces:
       - position
     state_interfaces:

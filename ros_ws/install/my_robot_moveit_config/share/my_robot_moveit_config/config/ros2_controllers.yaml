@@ -1,1 +1,37 @@
-/home/kk/github/ros2_control_moveit_6-dor-arm/ros_ws/src/my_robot_moveit_config/config/ros2_controllers.yaml
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    my_custom_controller:
+      type: my_robot_controller/MyCustomController
+
+    gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+my_custom_controller:
+  ros__parameters:
+    joints:
+      - Joint_1
+      - Joint_2
+      - Joint_3
+      - Joint_4
+      - Joint_5
+      - Joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+gripper_controller:
+  ros__parameters:
+    joints:
+      - Joint_Gripper
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

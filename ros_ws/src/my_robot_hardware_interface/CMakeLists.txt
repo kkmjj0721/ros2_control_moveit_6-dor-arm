@@ -24,6 +24,8 @@ ament_target_dependencies(my_robot_hardware_interface
   rclcpp_lifecycle
 )
 
+pluginlib_export_plugin_description_file(hardware_interface my_robot_hardware_interface.xml)
+
 install(TARGETS my_robot_hardware_interface
   DESTINATION lib
 )

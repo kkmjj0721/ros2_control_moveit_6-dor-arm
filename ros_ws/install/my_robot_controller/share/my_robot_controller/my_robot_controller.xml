@@ -1,0 +1,10 @@
+<library path="my_robot_controller">
+  <class
+    name="my_robot_controller/MyCustomController"
+    type="my_robot_controller::MyCustomController"
+    base_class_type="controller_interface::ControllerInterface">
+    <description>
+      Simple six-joint position trajectory controller for MoveIt FollowJointTrajectory execution.
+    </description>
+  </class>
+</library>

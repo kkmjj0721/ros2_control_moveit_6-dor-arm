@@ -197,6 +197,43 @@ my_robot_controller_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_controller_uninstall.dir/build.make CMakeFiles/my_robot_controller_uninstall.dir/build
 .PHONY : my_robot_controller_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named my_robot_controller
+
+# Build rule for target.
+my_robot_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_robot_controller
+.PHONY : my_robot_controller
+
+# fast build rule for target.
+my_robot_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_controller.dir/build.make CMakeFiles/my_robot_controller.dir/build
+.PHONY : my_robot_controller/fast
+
+src/my_custom_controller.o: src/my_custom_controller.cpp.o
+.PHONY : src/my_custom_controller.o
+
+# target to build an object file
+src/my_custom_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_controller.dir/build.make CMakeFiles/my_robot_controller.dir/src/my_custom_controller.cpp.o
+.PHONY : src/my_custom_controller.cpp.o
+
+src/my_custom_controller.i: src/my_custom_controller.cpp.i
+.PHONY : src/my_custom_controller.i
+
+# target to preprocess a source file
+src/my_custom_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_controller.dir/build.make CMakeFiles/my_robot_controller.dir/src/my_custom_controller.cpp.i
+.PHONY : src/my_custom_controller.cpp.i
+
+src/my_custom_controller.s: src/my_custom_controller.cpp.s
+.PHONY : src/my_custom_controller.s
+
+# target to generate assembly for a file
+src/my_custom_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_controller.dir/build.make CMakeFiles/my_robot_controller.dir/src/my_custom_controller.cpp.s
+.PHONY : src/my_custom_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... my_robot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... my_robot_controller"
+	@echo "... src/my_custom_controller.o"
+	@echo "... src/my_custom_controller.i"
+	@echo "... src/my_custom_controller.s"
 .PHONY : help
 
 
