@@ -1,9 +1,7 @@
 # ros2_control_moveit_6-dor-arm
 使用ros2control+moveit2的六自由度机械臂的夹取仿真实现;
 
-可以去看我的另一个项目，将ros2control+moveit接入真实的一个三自由度机械臂，
-
-[unitree_3-dof_arm]: https://github.com/kkmjj0721/unitree_ros2_control	"unitree_3-dof_arm"
+可以去看我的另一个项目，将ros2control+moveit接入真实的一个三自由度机械臂，[unitree_3-dof_arm](https://github.com/kkmjj0721/ros2_control_moveit_6-dor-arm)
 
 
 
